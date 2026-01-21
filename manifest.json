@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Matrícula Bot",
+  "version": "1.0",
+  "description": "Automatiza a matrícula no site da faculdade.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "all_frames": true
+    }
+  ]
+}

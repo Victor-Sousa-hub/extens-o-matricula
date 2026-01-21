@@ -1,0 +1,124 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  padding: 15px;
+  background-color: #f4f7f6;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.status-panel {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.status-panel p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+#status {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.input-group {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#add-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+#add-btn:hover {
+  background-color: #2980b9;
+}
+
+#subject-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#subject-list li {
+  background: #fff;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  border-left: 3px solid #3498db;
+}
+
+.remove-btn {
+  color: #e74c3c;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-start {
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-start:hover {
+  background-color: #27ae60;
+}
+
+.btn-stop {
+  background-color: #e74c3c;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-stop:hover {
+  background-color: #c0392b;
+}
+
+#clear-btn {
+  background-color: #95a5a6;
+  color: white;
+}

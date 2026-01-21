@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrícula Bot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Matrícula Bot</h1>
+    
+    <div class="status-panel">
+      <p>Status: <span id="status">Parado</span></p>
+      <p>Refreshes: <span id="refresh-count">0</span></p>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="subject-input" placeholder="Nome da matéria...">
+      <button id="add-btn">Adicionar</button>
+    </div>
+
+    <ul id="subject-list"></ul>
+
+    <div class="controls">
+      <button id="toggle-btn" class="btn-start">Iniciar Bot</button>
+      <button id="clear-btn">Limpar Lista</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
